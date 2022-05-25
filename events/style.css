@@ -1,0 +1,25 @@
+button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 17px;
+  border: 0;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  border: 2px solid blueviolet;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+}
+.increment-section {
+  text-align: center;
+}
+#numberInc {
+  font-size: 2.4rem;
+  padding: 0 10px;
+}
