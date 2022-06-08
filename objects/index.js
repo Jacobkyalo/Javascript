@@ -69,3 +69,15 @@ const programmer = {
 };
 let jsonData = JSON.stringify(programmer);
 console.log(jsonData);
+
+//Object destructuring
+
+let car = {
+  name: "Ford",
+  model: 333,
+  isNew: true,
+};
+let { name, model, isNew } = car;
+console.log(name); //Ford
+console.log(model); //333
+console.log(isNew); //true
