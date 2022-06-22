@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Api</title>
+    <style>
+      body {
+        background: #272727;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #posts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .post {
+        max-width: 200px;
+        background: #494747;
+        padding: 20px;
+        border-radius: 8px;
+        height: 280px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello Fetch Api</h1>
+    <h3 id="text"></h3>
+    <img id="img" />
+    <div id="users"></div>
+    <hr />
+    <form id="form">
+      <div><input type="text" id="title" placeholder="title" /></div>
+      <div>
+        <textarea id="body" placeholder="body"></textarea>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+    <h2 style="text-align: center">Posts</h2>
+    <div id="posts"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
